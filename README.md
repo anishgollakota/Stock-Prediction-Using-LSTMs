@@ -10,13 +10,13 @@ The Neural Network in use for this model is an Sequential LSTM model.
 
 The model is comprised of:
 - Two LSTM Layers
- - Each consisting of 50 Neurons
- - Do not return sequences on the last layer because we want output predicting the next day's value on the dataset.
+  - Each consisting of 50 Neurons
+  - Do not return sequences on the last layer because we want output predicting the next day's value on the dataset.
 - Two Dense Layers
- - Conisting of 25 Neurons and 1 Neuron
+  - Conisting of 25 Neurons and 1 Neuron
 - Compilation
- - Optimizer: Adam
- - Loss: MSE (Mean Squared Error)
+  - Optimizer: Adam
+  - Loss: MSE (Mean Squared Error)
  
 ## Example: Predicting NVIDIA stock prices with high accuracy
 
