@@ -28,3 +28,5 @@ After applying our model and predictions:
 
 ![](src/NVIDIA%20Predicted%20Closing%20Prices.png)
 
+The close correlation between the validations and predictions indicate a reliable model for making business decisions.
+
